@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -> assign a random number to the variable n *and print the last digit of the number stored in variable n
+ * main -> n is asigned to a random number
  * Return: Always 0 (Success)
  */
 int main(void)
