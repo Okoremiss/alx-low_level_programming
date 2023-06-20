@@ -12,12 +12,13 @@ void print_alphabets(void)
 {
 	char i = 'a';
 
-	while(i <= 'z')
+	while (i <= 'z')
 	{
 		_putchar(i);
 		i++;
 
 	}
 	_putchar('\n');
+
 }
 
