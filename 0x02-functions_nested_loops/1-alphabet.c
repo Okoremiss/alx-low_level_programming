@@ -1,24 +1,16 @@
 #include "main.h"
-#include <unistd.h>
-
 /**
- * prints the alphabets in lowercase followed by a new line
+ * prints alphabets in lowercase
  *
- * main - Entry point
- *
- * Return: 0. (Success)
+ * Return: Always 0 (Success)
  */
-void print_alphabets(void)
-{
-	char i = 'a';
+ void ptint_alphabet(void)
+ {
+	int i;
 
-	while (i <= 'z')
+	for (i = 97; i <= 122; i++)
 	{
 		_putchar(i);
-		i++;
-
 	}
 	_putchar('\n');
-
 }
-
