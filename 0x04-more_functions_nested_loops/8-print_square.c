@@ -7,18 +7,18 @@
  * Return: void
  */
 
+
 void print_square(int size)
 {
-	if (size <= 0)
-	{
-		_putchar('\n');
-	} else
-	{ 
-		int sqr1, sqr2;
+	int i, j;
 
-		for (sqr1 = 0; sqr1 < size; sqr1++)
+	if (size <= 0)
+		_putchar('\n');
+
+	
+		for (i = 0; i < size; i++)
 		{
-			for (sqr2 = 0; sqr2 < size; sqr2++)
+			for (j = 0; j < (size); j++)
 			{
 				_putchar('#');
 			}
