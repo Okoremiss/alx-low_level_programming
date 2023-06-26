@@ -20,7 +20,7 @@ int main(void)
 
 	{
 		password[index] = 33 + rand() % 94;
-		sum += password[index];
+		sum += password[index++];
 	}
 
 	password[index] = '\0';
