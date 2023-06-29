@@ -8,9 +8,7 @@
  */
 int main(void)
 {
-char buffer[] = "Thisisastring!\0Andthisistherestofthe#buffer:)
-	\1\2\3\4\5\6\7#cisfun\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x20\x21\x34\x56
-	#pointersarefun #infernumisfun\n";
+char buffer[] = "Thisisastring!\0Andthisistherestofthe#buffer:)\1\2\3\4\5\6\7#cisfun\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x20\x21\x34\x56#pointersarefun #infernumisfun\n";
 
 
 printf("%s\n", buffer);
